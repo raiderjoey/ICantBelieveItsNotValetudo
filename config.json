@@ -1,0 +1,22 @@
+{
+    "mapSettings": {
+        "drawPath": true,
+        "drawCharger": true,
+        "drawRobot": true,
+        "scale": 2
+    },
+    "mqtt": {
+        "identifier": "rockrobo",
+        "topicPrefix": "valetudo",
+        "autoconfPrefix": "homeassistant",
+        "broker_url": "mqtt://192.168.1.177:30183",
+        "caPath": "",
+        "mapDataTopic": "valetudo/rockrobo/map_data",
+        "minMillisecondsBetweenMapUpdates": 10000,
+        "publishMapImage": true
+    },
+    "webserver": {
+        "enabled": true,
+        "port": 3000
+    }
+}
